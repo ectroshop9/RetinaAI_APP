@@ -72,3 +72,26 @@ Beyond classification; providing clinical narratives justified by visual evidenc
 ├── reports/     # Quality audits & Performance logs
 ├── src/         # Core Logic (retina_core.py)
 └── tests/       # Unit tests & Validation suites
+---
+## 📚 References & Technical Sources
+
+### 1. Google Health AI Developer Foundations (HAI-DEF)
+* **MedGemma 1.5-4b-it:** Official open-weight model for clinical reasoning.  
+  [Link to Model Collection](https://huggingface.co/collections/google/medgemma-release)
+* **MedSigLIP:** Multimodal vision-language model for medical imaging.
+* **Med-PaLM Evaluation Toolkit:** Clinical safety and benchmark framework.
+
+### 2. Core Methodologies & Datasets
+* **IDRiD Dataset:** Indian Diabetic Retinopathy Image Dataset for high-resolution lesion detection.  
+  *Source: [IEEE Dataport / IDRiD Site]*
+* **BitNet 1.58b (Quant158):** "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits."  
+  *Source: Microsoft Research / arXiv:2402.17764*
+* **LIT (Learning Interpretability Tool):** "The Language Interpretability Tool: Extensible, Interactive Visualizations and Analysis for NLP Models."  
+  *Source: Google Research / arXiv:2008.05122*
+
+### 3. Vector Database & RAG
+* **LanceDB:** Serverless vector database for efficient k-NN retrieval of clinical cases.
+
+### 4. Competition Standards
+* **MedGemma Impact Challenge Rules:** Managed by Kaggle & Google Research (2026).
+* **CC BY 4.0 License:** Open-source compliance for winning submissions.
